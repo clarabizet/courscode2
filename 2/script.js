@@ -1,14 +1,19 @@
 
 $(document).ready(function(){
 	alert("Bienvenue");
+	monTexte="Hello"
+	monTexte2="Hello2"
+	$("p").html(monTexte);
 
 	$("p").on( "click", function(){
 
-		if($("p").hasClass('red')){
-          $("p").removeClass('red');
+		if($(this).hasClass('red')){
+          $(this).html(monTexte);
 		}else{
-          $("p").addClass('red');
+          $(this).addClass('red');
+          $(this).html(monTexte2);
      	}
+     
 
-   })
+   });
 });
