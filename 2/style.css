@@ -3,7 +3,7 @@
 
 body{
   background: #fff;
-  color: #000; 
+  color: #FEFFFF; 
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
   margin:0;
@@ -36,7 +36,7 @@ p{
 }
 
 a { 
-  color: #29324B;
+  color: #FEFFFF;
 }
 
 a:hover {
@@ -59,7 +59,7 @@ a:hover {
 
 /* Mis en forme de la baseline */
 #baseline{
-  background-color: #41A3C0;
+  background-color: #0D156C;
   text-align: center;
   height: 450px;
   padding: 150px;
@@ -118,7 +118,7 @@ a:hover {
 
 
 #welcome{
-  background-color: #41A3C0;
+  background-color: #0D156C;
   text-align: center;
   padding: 50px;
   color: white;
@@ -141,14 +141,14 @@ a:hover {
 
 
 #defis h2 {
-  color: rgb(225, 0, 152);
+  color: #43ADCB;
 
 }
 
 
 footer {
   text-align:center;
-  background-color: #41A3C0;
+  background-color: #43ADCB;
 }
 
 
